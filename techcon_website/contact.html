@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="register.html" target="_blank">Register</a></li>
+                <li><a href="schedule.html" target="_blank">Schedule</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <main>
+        <h2>Email Address</h2>
+        <a href="mailto:email@example.com" target="_blank">Email</a>
+        <h2>Social Media Links</h2>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <br>
+        <iframe src="https://cdn.britannica.com/37/245037-050-79129D52/world-map-continents-oceans.jpg" height="400" title="Nega Bonger"></iframe>
+        <h2>Contact Form</h2>
+        <form action="/sumbit-form" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required minlength="4" placeholder="username">
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required placeholder="example@email.com">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="5" cols="33">Hello!</textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; TechCon Conference 2024</p>
+    </footer>
+</body>
+</html>
